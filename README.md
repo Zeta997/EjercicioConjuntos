@@ -13,7 +13,7 @@
 
 > Python 3.11
 
-*3.-*Ejecuta el archivo `EjercicioClase.py` desde el terminal.
+*3.-* Ejecuta el archivo `EjercicioClase.py` desde el terminal.
 
 > python3 EjercicioClase.py --> Mac
 
