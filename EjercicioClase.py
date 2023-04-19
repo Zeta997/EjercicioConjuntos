@@ -13,6 +13,11 @@ print(f"El total de asistencias de ambos alumnos es {len(conjuntoTotalAsistencia
 print("---------------------------------------------------------")
 #2. Mostrar las sesiones a las que asistieron ambos alumnos.
 asistieronAmbos={x for x in conjuntoTotalAsistencias if conjuntoTotalAsistencias.count(x)==2}
+# asistierionAmbos1=set()
+# for x in conjuntoTotalAsistencias:
+#     if conjuntoTotalAsistencias.count(x)==2:
+#         asistierionAmbos1.add(x)
+# print(asistierionAmbos1)
 for i in asistieronAmbos:
     print(f"Ana y Luis coincidieron en la sesion {i}")       
 print("---------------------------------------------------------")
